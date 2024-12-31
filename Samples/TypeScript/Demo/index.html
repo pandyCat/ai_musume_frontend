@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1900">
+  <title>マチコちゃんのお部屋</title>
+  <link rel="stylesheet" href="index.css">
+  <!-- Live2DCubismCore script -->
+  <script src = "./Core/live2dcubismcore.js"></script>
+  <!-- Build script -->
+  <script src = "./src/main.ts" type="module"></script>
+</head>
+<body>
+  <div class="MainContainer">
+    <div class="CommentArea">
+      <section class="CommentPostContainer">
+        <div class="CommentPostContainer-inner">
+          <div class="CommentPostContainer-commentInput">
+            <div class="RecaptchaRequirer-comment">
+              <div class="CommentInput">
+                <input class="CommentInput-textarea" id="CommentInputArea" placeholder="話しかけて！音声入力は 田+h" rows="1"></input>
+              </div>
+            </div>
+            <div class="RecaptchaRequirer-button">
+             <button type="button" class="CommentPostButton" id="comment-post-button">
+                コメント
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="responsedMessage">
+      <textarea class="CommentInput-textarea" id="resmsg" placeholder="マチコからの返事" rows="2"></textarea>
+    </div>
+
+    <div class="VideoSymbolContainer">
+      <canvas id="myCanvas"></canvas>
+    </div>
+  </div>
+</body>
+</html>

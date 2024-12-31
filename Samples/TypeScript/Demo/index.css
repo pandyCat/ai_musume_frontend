@@ -1,0 +1,109 @@
+html, body {
+    font-family: Avenir,Lato,-apple-system,BlinkMacSystemFont,Helvetica Neue,Hiragino Kaku Gothic ProN,Meiryo,メイリオ,sans-serif;
+    margin: 0;
+    overflow: hidden;
+    background-color: #f4f4f4;
+  }
+  
+  .MainContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .VideoSymbolContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  /* キャンバスの大きさ */
+  .myCanvas {
+    display: block;
+    margin: 16px 16px 0px 16px;
+  }
+  
+  /* コメントを打つところ */
+  .CommentArea {
+    margin: 0px 16px 16px 16px;
+    background-color: #fff;
+    border-color: #7F250D;
+    border-style: solid;
+  }
+  
+  .CommentPostContainer {
+    margin-right: 8px;
+    width: 100%;
+    display: block;
+  }
+  
+  .CommentPostContainer-inner {
+    display: flex;
+  }
+  
+  .CommentPostContainer-commentInput {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+    border-top: 2px solid #ddd;
+    flex: 1 0 1px;
+    min-width: 1px;
+    vertical-align: middle;
+  }
+  
+  .RecaptchaRequirer-comment {
+    margin: 8px 0px 8px 16px;
+    width: 100%;
+  }
+  .RecaptchaRequirer-button {
+    margin: 8px 16px 8px 0px;
+  }
+  
+  .CommentInput {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 4px 8px;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    border-left: 2px solid #ddd;
+    border-radius: 4px 0px 0px 4px;
+  }
+  
+  .CommentInput-textarea {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: inline-block;
+    height: 100%;
+    line-height: inherit;
+    overflow: hidden;
+    padding: 0;
+    resize: none;
+    vertical-align: top;
+    white-space: pre;
+    width: 100%;
+  }
+  
+  .CommentPostButton {
+    align-items: center;
+    background-color: #7F250D;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    height: 32px;
+    justify-content: center;
+    line-height: 1.5;
+    width: 92px;
+    border-top: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    border-left: none;
+    border-radius: 0px 4px 4px 0px;
+  }
+
+  .responsedMessage {
+    display: flex;
+  }
+  

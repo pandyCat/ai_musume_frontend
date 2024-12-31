@@ -1,0 +1,7 @@
+Samples/TypeScript/Demo/node_modules
+Samples/TypeScript/Demo/yarn.lock
+.vscode/settings.json
+yarn.lock
+node_modules/.yarn-integrity
+Samples/TypeScript/Demo/public/Resources
+Samples/TypeScript/Demo/dist/
